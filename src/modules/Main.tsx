@@ -116,6 +116,17 @@ export function Main() {
                     />
                 </section>
             </section>
+
+            <section className='flex flex-col gap-y-[30px]'>
+                <h2 id='integrantes' className="font-bold text-2xl">
+                    Integrantes
+                </h2>
+                <section>
+                    <p>Juan A. M. Garcia</p>
+                    <p>Victor Gonçalves</p>
+                    <p>Wallace</p>
+                </section>
+            </section>
         </main>
     )
 }
