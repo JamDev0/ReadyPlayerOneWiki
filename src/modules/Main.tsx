@@ -87,7 +87,7 @@ export function Main() {
                     Elenco
                 </h2>
                 <section
-                 className='flex flex-wrap gap-x-3 gap-y-4 justify-center'
+                 className='flex flex-wrap gap-x-3 gap-y-4 justify-center text-gray-300'
                 >
                     <ElencoCard
                     img={Tyre}
