@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "ReadyPlayerOneFont";
+    src: url("./assets/fonts/ReadyPlayerOne-rwzx.ttf");
+}
+
+
+* {
+    @apply m-0 p-0 box-border font-poppins
+}
