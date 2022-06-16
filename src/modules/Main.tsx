@@ -1,3 +1,14 @@
+import Tyre from '../assets/atores principais/Tyre.png';
+import Ben from '../assets/atores principais/Ben.png';
+import Cooke from '../assets/atores principais/Cooke.png';
+import Pegg from '../assets/atores principais/Pegg.png';
+import TJ from '../assets/atores principais/T.J.png';
+
+
+
+
+import { ElencoCard } from './ElencoCard';
+
 export function Main() {
     return(
         <main
@@ -66,12 +77,44 @@ export function Main() {
                 </section>
             </section>
 
-            <section>
-                <h2 id="elenco">Elenco</h2>
-                <figure>
-                    <img id="ator1" src="./atores principais/Tyre.png" alt="Ator americano Tyre Sheridan"/>
-                    <p>No filme, atua como <b>Wade Watts</b></p>
-                </figure>
+            <section
+             className="flex flex-col gap-y-[30px]"
+            >
+                <h2 
+                 id="elenco"
+                 className="font-bold text-2xl"
+                >
+                    Elenco
+                </h2>
+                <section
+                 className='flex flex-wrap gap-x-3 gap-y-4 justify-center'
+                >
+                    <ElencoCard
+                    img={Tyre}
+                    name='Tyre'
+                    text='No filme, atua como Wade Watts'
+                    />
+                    <ElencoCard
+                    img={Ben}
+                    name='Ben'
+                    text='Atua como Sorrento'
+                    />
+                    <ElencoCard
+                    img={Cooke}
+                    name='Cooke'
+                    text='Atua como Samantha'
+                    />
+                    <ElencoCard
+                    img={Pegg}
+                    name='Pegg'
+                    text='Atua como Ogden'
+                    />
+                    <ElencoCard
+                    img={TJ}
+                    name='T.J'
+                    text='Atua como i-R0k'
+                    />
+                </section>
             </section>
         </main>
     )
