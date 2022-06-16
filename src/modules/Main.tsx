@@ -91,7 +91,7 @@ export function Main() {
                 >
                     <ElencoCard
                     img={Tyre}
-                    name='Tyre'
+                    name='Tye'
                     text='No filme, atua como Wade Watts'
                     />
                     <ElencoCard
