@@ -11,7 +11,10 @@ export function Header() {
 
             <nav>
                 <ul
-                 className="flex flex-wrap gap-y-2 gap-x-10 text-lg font-bold justify-around"
+                 className="
+                    flex flex-col flex-wrap gap-y-2 gap-x-10 text-lg font-bold items-center
+                    md:flex-row md:justify-center
+                 "
                 >
                     <li><a className="hover:underline hover:decoration-[#46d3f0]" href="#info-geral">Info geral</a></li>
                     <li><a className="hover:underline hover:decoration-[#46d3f0]" href="#resumo">Enredo</a></li>
